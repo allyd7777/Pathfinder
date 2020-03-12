@@ -1,7 +1,6 @@
 package com.adonahue.pathfinder.dto;
 
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 /**
@@ -79,7 +78,7 @@ public class Character {
         skills.put("Stealth", new Skill("Stealth", "Dex"));
         skills.put("Survival", new Skill("Survival", "Wis"));
         skills.put("Swim", new Skill("Swim", "Str"));
-        skills.put("Use Magic Device", new Skill("Use Magic Device", "Cha"));        
+        skills.put("Use Magic Device", new Skill("Use Magic Device", "Cha"));
     }
 
 }
